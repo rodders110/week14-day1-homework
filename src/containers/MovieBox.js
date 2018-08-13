@@ -10,9 +10,7 @@ class MovieBox extends Component{
     return(
       <div className = 'movie_box'>
         <h2>UK Opening this week</h2>
-        <table>
           <MovieList data={movies}/>
-        </table>
       </div>
     )
   }
@@ -20,32 +18,32 @@ class MovieBox extends Component{
 
 const movies = [
   {
-   title: 'Sausage Party',
-   showtimes: 'enter some url here'
+   title: 'A Beautiful Plant',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-12-25&for-movie=ho00003621&view-mode=list'
  },
  {
-   title: 'Cafe Society',
-   showtimes: 'enter some url here'
+   title: 'Christopher Robin',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-16&for-movie=ho00005376&view-mode=list'
  },
  {
-   title: 'Morgan',
-   showtimes: 'enter some url here'
+   title: 'Ant-Man And The Wasp',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-13&for-movie=ho00005096&view-mode=list'
  },
  {
-   title: 'The 9th life of Louise Drax',
-   showtimes: 'enter some url here'
+   title: 'Dog Days',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-14&for-movie=ho00005666&view-mode=list'
  },
  {
-   title: 'Naam Hai Akira',
-   showtimes: 'enter some url here'
+   title: 'Hotel Transylvania 3: A Monster Vacation',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-14&for-movie=ho00005107&view-mode=list'
  },
  {
-   title: 'Equity',
-   showtimes: 'enter some url here'
+   title: 'Incredibles',
+   showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-14&for-movie=ho00005098&view-mode=list'
  },
  {
-   title: 'Things to come',
-  showtimes: 'enter some url here'
+   title: 'The Darkest Minds',
+  showtimes: 'https://www.cineworld.co.uk/#/buy-tickets-by-film?in-cinema=glasgow&at=2018-08-13&for-movie=ho00005316&view-mode=list'
  }
   ];
 
